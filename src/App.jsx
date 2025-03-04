@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbar from './components/navbar'
+// import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import logo from './assets/kevinRushLogo.png'
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa'
 import Hero from './components/hero'
