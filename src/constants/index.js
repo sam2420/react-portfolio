@@ -2,7 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-1.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I am a passionate computer science student at PES University with a strong interest in Artificial Intelligence and Machine Learning. Currently interning as an Associate Software Engineer at Sajjalashri Technologies, I am focused on backend development and API integrations. My expertise spans Python, SQL, and JavaScript, and I am particularly interested in computer vision and transformer-based architectures. In my free time, I enjoy playing games and exercising.`;
 
