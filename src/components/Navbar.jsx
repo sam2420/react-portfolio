@@ -20,9 +20,9 @@ const Navbar = () => {
         <a href="https://github.com/sam2420" target="_blank" rel="noopener noreferrer">
           <FaGithub className="hover:text-gray-400 transition duration-300" />
         </a>
-        <a href="https://www.instagram.com/its._sam.24/" target="_blank" rel="noopener noreferrer">
-          <FaInstagram className="hover:text-pink-500 transition duration-300" />
-        </a>
+        {/* <a href="https://www.instagram.com/its._sam.24/" target="_blank" rel="noopener noreferrer"> */}
+          {/* <FaInstagram className="hover:text-pink-500 transition duration-300" /> */}
+        {/* </a> */}
         {/* Resume Download Button */}
         <a 
           href="https://drive.google.com/file/d/1nk-FjDc1MR7hrTtMrQHuYCsPYaYXq7ZZ/view?usp=sharing" 
