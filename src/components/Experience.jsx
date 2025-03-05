@@ -29,7 +29,8 @@ const Experience = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, ease: "easeOut", delay: index * 0.3 }}
             >
-              <p className='mb-2 text-sm text-neutral-400'>{experience.year}</p>
+              {/* <p className='mb-2 text-sm text-neutral-400'>{experience.year}</p>  BOLD THIS LINE */}
+                <p className='mb-2 text-sm text-neutral-400 font-bold'>{experience.year}</p>
             </motion.div>
 
             {/* Right Side - Role, Description, Technologies */}

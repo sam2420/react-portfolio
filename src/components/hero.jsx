@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/image_hashim.jpg';
+import { HERO_CONTENT, ABOUT_TEXT } from '../constants';
+import profilePic from '../assets/image_hashim.png';
 
 const Hero = () => {
   return (
@@ -41,7 +41,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 0.9 }}
             >
-              {HERO_CONTENT}
+              {HERO_CONTENT + ABOUT_TEXT}
             </motion.p>
           </div>
         </motion.div>
@@ -54,7 +54,7 @@ const Hero = () => {
           <motion.img 
             src={profilePic} 
             alt='profilePic' 
-            className=' shadow-lg'
+            className='max-h-150 h-auto w-auto rounded-lg shadow-lg' // Reduced height, width auto-adjusts
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
           />
